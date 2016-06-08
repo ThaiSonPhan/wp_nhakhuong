@@ -1,0 +1,221 @@
+/*-----------General Reponsive-------------*/
+table{
+	max-width: 100% !important;
+}
+img {
+	max-width: 100%;
+}
+span,p {
+	word-wrap: break-word;
+}
+#fb-root {
+    display: none;
+}
+.pull {
+	display: block;
+	position: absolute;
+    z-index: 9999;
+    top: 50%;
+    right: 10px;
+    margin: -17px 0 0 0;
+    padding: 0;
+	display: none;
+}
+.pull a.btn_pull {
+	display: block;
+	height: 35px;
+	padding: 0 5px;
+}
+/*-------------acticle general----------------*/
+div.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+div.video iframe,
+div.video object,
+div.video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+article img,
+article iframe,
+article swf,
+article embed,
+article object,
+article table {	
+	margin: 0;
+	padding: 0;
+	max-width: 100%!important;
+	font-size: medium;
+	clear: both;
+}
+/*-------------hack IE----------------*/
+@media \0screen {
+img {
+width: auto; /* for ie 8 */ }  
+}
+/*-----------Media multi-------------*/
+@media screen and (max-width: 1200px) {
+	#menu_head {
+		display: inline-block;
+		float: none;
+		width: 100%;
+	}
+	#nav.nav ul.nav_ul {
+		display: table;
+		margin: 0 auto;
+	}
+	#header .hotline_wraper {
+		margin-top: 0px;
+	}
+	#header .face_like {
+		width: 100%;
+		margin-right: 0px;
+		margin-top: 10px;
+		text-align: right;
+	}
+	#header .hotline {
+		width: 100%;
+		margin-right: 0px;
+		margin-top: 40px;
+	}
+
+}
+@media screen and (max-width: 1024px) {
+
+	div.video iframe,
+	div.video object,
+	div.video embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100% !important;
+		height: 100% !important;
+	}
+}
+/*-----------------landscape size for screen device and browsers-------------*/	
+@media only screen and (max-width: 920px) {
+
+}
+@media only screen and (min-width: 800px) and (max-width: 959px) {
+}
+/*-----------------landscape size for tablet-------------*/
+@media only screen and (min-width: 640px) and (max-width: 799px) {
+}
+/*-----------Media multi xoay doc tablet-------------*/
+@media only screen and (max-width: 800px) {
+	article img,
+	article iframe,
+	article swf,
+	article embed,
+	article table
+	{	
+		min-width: 100% !important;
+		max-width: 100% !important;
+		height: 100% !important;
+	}
+}
+/*-----------Screen xoay doc Ipad-------------*/
+@media screen and (max-width: 767px) {
+	.nav_responsive,
+	.pull {
+		display: block;
+	}
+	#header .banner {
+		padding-bottom: 10px;
+	}
+
+	#menu_head {
+		display: none;
+	}
+
+	#header .logo.mobile {
+		padding: 5px 15px;
+		margin: 0 -15px;
+		background: #C51318;
+	}
+	#header .logo.mobile img {
+		height: 50px;
+		display: initial;
+	}
+
+	#header .hotline,
+	#header .face_like {
+		float: left;
+		text-align: left;
+	}
+	#header .hotline {
+		background: none;
+		margin-top: 10px;
+		height: auto;
+	}
+	#header .hotline span {
+		font-size: 30px;
+		padding: 0;
+	}
+
+	.list_product .product_col {
+		margin-left: 0;
+	}
+
+	article img,
+	article iframe,
+	article swf,
+	article embed,
+	article table {	
+		min-width: 80%!important;
+		max-width: 100%!important;
+		height: 100% !important;
+	}
+}
+/*-----------Screen xoay ngang smart phone-------------*/
+@media screen and (max-width: 640px) {
+	article img,
+	article iframe,
+	article swf,
+	article embed,
+	article table
+	{	
+		min-width: 80%!important;
+		max-width: 100%!important;
+		height: 100% !important;
+	}
+}
+/*-----------Screen 560px-------------*/
+@media screen and (max-width: 560px) {
+	.comment-form input[type="text"], 
+	.comment-form input[type="email"], 
+	.comment-form input[type="url"] {
+		max-width: 100% !important;
+		width: 100% !important;
+	}
+}
+/*-----------Screen 480px-------------*/
+@media screen and (max-width: 480px) {
+	#header .logo.mobile img {
+		height: 30px;
+	}
+}
+/*-----------Sreen mobile dọc loại màn hình nhỏ-------------*/
+@media screen and (max-width: 360px) {
+	article img,
+	article iframe,
+	article swf,
+	article embed,
+	article table,
+	article object 
+	{	
+		min-width: 100%!important;
+		max-width: 100%!important;
+	}
+}
+
+@media screen and (max-width: 320px) {
+}

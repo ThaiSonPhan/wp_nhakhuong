@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SFUFUTURABOOK';
+    src: url('fonts/SFUFUTURABOOK.eot');
+    src: url('fonts/SFUFUTURABOOK.eot') format('embedded-opentype'),
+         url('fonts/SFUFUTURABOOK.woff2') format('woff2'),
+         url('fonts/SFUFUTURABOOK.woff') format('woff'),
+         url('fonts/SFUFUTURABOOK.ttf') format('truetype'),
+         url('fonts/SFUFUTURABOOK.svg#SFUFUTURABOOK') format('svg');
+}

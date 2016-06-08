@@ -1,0 +1,33 @@
+.owl-carousel .active {
+	display: inline-block !important;
+}
+#owl-slider .owl-controls {
+	position: absolute;
+	z-index: 9;
+	right: 10%;
+	bottom: 20px;
+}
+#owl-slider.owl-theme .owl-controls .owl-page.active span, 
+#owl-slider.owl-theme .owl-controls.clickable .owl-page:hover span {
+	background: #cb1116;
+}
+#owl-slider.owl-theme .owl-controls .owl-page span {
+	background: #fff;
+	border: none;
+	opacity: 1;
+}
+
+.testimonial_slide.owl-theme .owl-controls .owl-page.active span, 
+.testimonial_slide.owl-theme .owl-controls.clickable .owl-page:hover span {
+	background: #cb1116;
+}
+.testimonial_slide.owl-theme .owl-controls .owl-page span {
+	width: 8px;
+	height: 8px;
+	background: #898989;
+	border: none;
+	opacity: 1;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}

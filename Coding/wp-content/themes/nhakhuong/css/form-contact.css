@@ -1,0 +1,228 @@
+
+#main form.contact
+{
+	margin: 20px auto 20px auto;
+	border: 1px solid #CECECE;
+	padding: 3%;
+	background: #ECECEC;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	behavior: url(css/PIE/PIE_uncompressed.htc);
+}
+#main form.contact p
+{
+	color: #000;
+	text-align: justify;
+}
+#main form.contact .error 
+{
+	float:left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#main form.contact .error p
+{
+	line-height: 24px;
+	color: red;
+	text-align: center;
+}
+#main form.contact .row
+{
+	width: 100%;
+	float: left;
+	border: none;
+	margin: 5px 0px 5px 0px;
+	padding: 0;
+	position: reative;
+}
+#main form.contact .row label
+{
+	/*color: #000;*/
+}
+form.contact .row_contact1
+{
+	float: left;
+	width: 30%;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+form.contact .row_contact1
+{
+	width: 100%;
+	text-align: left;
+}
+form.contact .row_contact1 label
+{
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	line-height: 24px;
+	text-align: left;
+}
+form.contact .row_contact2
+{
+	float: right;
+	width: 70%;
+	padding: 0;
+	margin: 0;
+}
+form.contact .row_contact2
+{
+	float: left;
+	width: 100%;
+}
+form.contact .row_contact2 input
+{
+	float: left;
+	width: 70%;
+	line-height: 20px;
+	padding: 0px 1%;
+	margin: 0;
+	color: #000;
+	font-size: 14px;
+}
+form.contact .row_contact2 input,
+form.contact .row_contact2 input:focus
+{
+	width: 100%;
+	padding: 0;
+	line-height: 20px;
+}
+form.contact .row_contact2 input.captcha
+{
+	width: 50px;
+}
+form.contact .row_contact2 img.captcha
+{
+	float: left;
+	height: 24px;
+}
+form.contact .row_contact2 span
+{
+	float: left;
+	line-height: 24px;
+}
+form.contact .row_contact2 textarea 
+{
+	width: 98%;
+	min-height: 50px;
+	padding: 1%;
+	margin: 0;
+}
+form.contact .row_contact2 strong,
+form.contact .row_contact2 label
+{
+	padding: 4px 0px 10px 0px;
+	float: left;
+	text-align: left;
+	color: #000;
+	font-weight: bold;
+}
+form.contact .row_contact3
+{
+	float: left;
+	padding: 10px 0px 10px 10px;
+	color: #fff;
+	width: 195px;
+	display: none;
+}
+form.contact .row_contact3 span
+{
+	font-size: 12px;
+	color: rgb(167, 79, 79);
+	font-weight: normal;
+}
+form.contact .button
+{
+	display: table;
+	margin: 0 auto;
+	padding: 2%;
+}
+form.contact .button input
+{
+	width: 100px;
+	height: 30px;
+	margin: 0px 5px;
+	cursor: pointer;
+	display: inline-block;
+	background: #00a859;
+	border: none;
+	color: #fff;
+}
+form.contact .button input[name=reset]
+{
+	background: #AAA;
+}
+form.contact .button input:hover
+{
+	background: #f37622;
+}
+form.contact label.error
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	color: #00a859;
+	font-size: 12px;
+}
+form.contact red {
+	color: red;
+}
+form.contact span.your-message {
+	width: 100%;
+}
+
+#BookingForm.contact .row_contact1 {
+	width: 35%;
+}
+#BookingForm.contact .row_contact1 label {
+	width: 90%;
+	text-align: right;
+}
+#BookingForm.contact .row_contact2 {
+	width: 65%;
+}
+#BookingForm.contact .row_contact2 select {
+	width: 150px;
+	height: 24px;
+}
+#BookingForm.contact .row_contact2 select.room {
+	width: 50px;
+	margin: 0 6px 0 3px;
+}
+#BookingForm.contact .row_contact2 span {
+	color: #777777;
+}
+#BookingForm.contact .row_contact2 input.tour_name {
+	width: 100%;
+}
+#BookingForm.contact .button input {
+	background: #00a859;
+	border: none;
+	color: #fff;
+}
+#BookingForm input.tour_name {
+	border: 1px solid #ECECEC;
+	background: #ECECEC;
+}
+#BookingForm.contact .row_contact2 span.tour_name_label {
+	color: #000;
+	font-weight: bold;
+}
+@media only screen and (max-width: 920px) {	
+	#BookingForm.contact .row_contact1 {
+		width: 100%;
+	}
+	#BookingForm.contact .row_contact1 label {
+		width: 100%;
+		text-align: left;
+	}
+	#BookingForm.contact .row_contact2 {
+		width: 100%;
+	}
+}

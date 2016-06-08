@@ -1,0 +1,175 @@
+/*----------------Nav menu Responsive---------------*/
+.nav_responsive {
+	/* float: left; */
+	/* width: 100%; */
+	display: none;
+	min-height: 0px;
+	background :#FFF;
+	position: relative;
+	z-index: 1000;
+	margin: 0 -15px;
+}
+.nav_responsive > ul#accordion {
+	border:1px solid #666;
+	border-left: none;
+	border-right: none;
+	display:none;
+}
+.nav_responsive ul#accordion li ul {
+	display:none;
+}
+.nav_responsive ul#accordion li {
+	list-style:none;
+	display:block;
+	width:100%;
+	border-top:1px solid #CCCCCC;
+	position: relative;
+}
+.nav_responsive ul#accordion li em
+{
+	background: url("../images/bg-nav-em.png") no-repeat;
+	width: 10px;
+	height: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 10px;
+	right: 5px;
+}
+.nav_responsive ul#accordion li a {
+	display:block;
+	line-height:20px;
+	min-height:20px;
+	color:#000;
+	font-weight:bold;
+	padding: 5px 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-transform: capitalize;
+}
+.nav_responsive ul#accordion li a.active {
+	color:#c81217;
+}
+.nav_responsive ul#accordion li li a {
+	font-weight:normal;
+	padding: 5px 0px;
+	padding-left: 30px;
+	text-transform: none;
+}
+.nav_responsive ul#accordion li li li a {
+	padding: 5px 0px;
+	padding-left: 45px;
+} 
+.nav_responsive ul#accordion li li li li a {
+	padding: 5px 0px;
+	padding-left: 60px;
+} 
+.nav_responsive ul#accordion li a:hover {
+	background:#CCC;
+}
+.nav_responsive ul#accordion li span.dcjq-icon {
+	background: url('../images/bg-nav-em.png') 0 0 no-repeat;
+	display: inline-block;
+    width: 10px;
+    height: 5px;
+    margin-left: 10px;
+}
+
+
+
+.nav_responsive .pull {
+	height:40px;
+	line-height:40px;
+	background:#cf3100;
+	font-weight:bold;
+	color:#FFF;
+	text-align:right;
+	display:block;
+	position:relative;
+}
+.nav_responsive .pull a.btn_pull {	
+	position: absolute;
+	z-index: 0;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.nav_responsive .pull a.btn_pull img {
+	float: right;
+    padding: 10px 20px 10px 10px;
+}
+.nav_responsive .pull .content  {	
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+}
+.nav_responsive .pull .hotline  {	
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0px 0px 0px 10px;
+}
+.nav_responsive .pull .hotline p  {	
+	font-size: medium;
+	font-weight: bold;
+	line-height: 40px;
+}
+.nav_responsive .pull .lang  {	
+	float: left;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+}
+.nav_responsive .pull .lang  ul{
+	float: left;
+	margin: 12px 0px 0px 0px;
+	padding: 0;
+}
+.nav_responsive .pull .lang  ul li{	
+	float: left;
+	margin: 0px 5px 0px 5px;
+	padding: 0;
+	display: block;
+}
+.nav_responsive .pull .lang  ul li a{	
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.nav_responsive .pull .lang ul li.active {
+	display:none;
+}
+/*----------------Search Responsive---------------*/
+.search_mobile {
+	padding:5px 0;
+	position:relative;
+}
+.search_mobile .input_search_mobile {
+	margin-right:50px;
+	margin-left:5px;
+	display:block;
+}
+.search_mobile .input_search_mobile input.box_search2 {
+	width:100%;
+	height:30px;
+	text-indent:20px;
+	line-height:30px;
+	background:none;
+	border:1px solid #999;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+.search_mobile .btn_search2 {
+	position:absolute;
+	top:5px;
+	right:5px;
+	background:url(../images/btn_search.png) no-repeat left top;
+	display:block;
+	width:32px;
+	height:32px;
+	cursor:pointer;
+}
